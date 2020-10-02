@@ -1,0 +1,19 @@
+- name: Python
+  percentage: 100
+  level: "Very Experienced"
+  color: success
+
+- name: Java
+  percentage: 90
+  level: "Very Experienced"
+  color:
+
+- name: Linux & Bash Script
+  percentage: 75
+  level: "Experienced"
+  color: warning
+
+- name: C & Matlab
+  percentage: 60
+  level: "Familiar"
+  color: secondary

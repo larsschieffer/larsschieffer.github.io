@@ -1,41 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+### Site Settings ###
+title               : Lars Schieffer
+description         : >-
+                      Master's student in Computer Science at 
+                      the Universität des Saarlandes.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+remote_theme        : YoussefRaafatNasry/portfolYOU
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Lars Schieffer
-email: lars@larsschieffer.de
-description: >- # this means to ignore newlines until "baseurl:"
-  Master's student in Computer science at the Universität des Saarlandes
-baseurl: "" # the subpath of your site, e.g. /blog
-url: 'https://www.larsschieffer.de/' # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: 
-# github_username:  
 
-# Build settings
-markdown: kramdown
-theme: minima
+### Plugins ###
 plugins:
-  - jekyll-feed
+  - jemoji
+  - jekyll-github-metadata
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Lars Schieffer
+  image             : assets/lars-schieffer.jpg
+  email             : lars@larsschieffer.de
+  xing              : Lars_Schieffer
+  linkedin          : larsschieffer
+  # github            : larsschieffer
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

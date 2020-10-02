@@ -1,0 +1,9 @@
+- name: German
+  percentage: 100
+  level: Native
+  color: info
+
+- name: English
+  percentage: 80
+  level: Fluent
+  color: danger
