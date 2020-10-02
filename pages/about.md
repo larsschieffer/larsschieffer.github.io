@@ -7,9 +7,9 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:<br>
+Hi my name **{{ site.author.name }}** :wave:<br>
 <div style="text-align: justify"><span>
-A 23 year old master's student in computer science with a focus on neural networks and model verification. I recently submitted my master's thesis <b>JANI2PINS: The JANI front-end module for the LTSmin toolset</b>. Thus I'm excited to use my experience in computer science to support the digital transformation in Germany. If I do not code at my desk, I enjoy reading books as <a href="https://www.penguinrandomhouse.com/books/296832/atlas-shrugged-centennial-ed-hc-by-ayn-rand/">Atlas Shrugged</a> or <a href="https://www.ynharari.com/book/homo-deus/">Homo Deus: A Brief History of Tomorrow</a>. 
+and I am a 23 year old master's student in computer science with the focus on neural networks and model verification. I recently submitted my master's thesis <b>JANI2PINS: The JANI front-end module for the LTSmin toolset</b>. Now, I'm very excited to use my experience in computer science to support the digital transformation in Germany. Feel free to contact me via the details at the bottom of this page. If I do not code at my desk, I enjoy reading books as <a href="https://www.penguinrandomhouse.com/books/296832/atlas-shrugged-centennial-ed-hc-by-ayn-rand/">Atlas Shrugged</a> or <a style="word-break:break-all" href="https://www.ynharari.com/book/homo-deus/">Homo Deus: A Brief History of Tomorrow</a>.
 </span></div>
 
 
