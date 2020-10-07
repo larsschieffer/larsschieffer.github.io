@@ -3,6 +3,7 @@ title               : Lars Schieffer
 description         : >-
                       Master's student in computer science at 
                       the Saarland University.
+url                 : "https://www.larsschieffer.de"
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
@@ -11,6 +12,7 @@ remote_theme        : YoussefRaafatNasry/portfolYOU
 plugins:
   - jemoji
   - jekyll-github-metadata
+  - jekyll-seo-tag
 
 
 ### Navbar Settings ###
