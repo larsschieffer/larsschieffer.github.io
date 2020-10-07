@@ -16,6 +16,7 @@ gem "jekyll", "~> 3.9.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
     gem "jekyll-github-metadata"
+    gem 'jekyll-seo-tag'
   end
 
 gem "github-pages", group: :jekyll_plugins
