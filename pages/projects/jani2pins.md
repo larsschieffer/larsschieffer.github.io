@@ -3,7 +3,7 @@ layout: default
 permalink: /projects/jani2pins
 ---
 
-<div style="position: relative; top: 45%; -webkit-transform: translateY(-45%); -ms-transform: translateY(-45%);transform: translateY(-45%);">
+<div style="padding-top: 25px;">
     <div id="adobe-dc-view" style="height:65vh; width: 90%; margin-left: auto; margin-right: auto;"></div>
     <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
     <script type="text/javascript">
