@@ -259,6 +259,7 @@ DEPENDENCIES
   github-pages
   jekyll (~> 3.9.0)
   jekyll-github-metadata
+  jekyll-seo-tag
   kramdown-parser-gfm
   tzinfo (~> 1.2)
   tzinfo-data

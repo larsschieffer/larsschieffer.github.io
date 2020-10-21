@@ -19,6 +19,7 @@ plugins:
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/404.html
   - pages/index.md
+  - pages/projects/jani2pins.md
 
 
 ### Author Info ###
